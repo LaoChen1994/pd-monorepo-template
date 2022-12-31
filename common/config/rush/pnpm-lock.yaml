@@ -1,0 +1,15 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers: {}
+
+  ../../packages/core:
+    specifiers:
+      pd-rush-utils: workspace:^1.0.0
+    dependencies:
+      pd-rush-utils: link:../utils
+
+  ../../packages/utils:
+    specifiers: {}
