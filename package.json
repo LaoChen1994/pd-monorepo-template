@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "pnpm+rush+ts project",
   "main": "index.ts",
+  "private": true,
   "scripts": {
     "test": "pnpm run dev"
   },
   "keywords": [
-    "pnpm",
+    "menorepo",
     "rush",
     "ts"
   ],
+  "workspaces": ["packages/*"],
   "author": "chen",
   "license": "ISC",
   "devDependencies": {
